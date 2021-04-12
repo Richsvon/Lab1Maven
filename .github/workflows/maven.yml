@@ -4,7 +4,7 @@
 name: Java CI with Maven
 
 on:
-  commit_comment:
+  push:
     branches: [ local ]
   pull_request:
     branches: [ local ]
