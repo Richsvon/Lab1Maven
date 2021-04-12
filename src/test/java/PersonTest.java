@@ -12,6 +12,17 @@ public class PersonTest {
     private String actualReverseName;
 
     @Test
+    public void Person() {
+        Person person2 = new Person(20, "Bogge");
+        expectedAge = 20;
+        actualAge = person2.age;
+        expectedName = "Bogge";
+        actualName = person2.name;
+        Assert.assertEquals(expectedAge,actualAge);
+        Assert.assertEquals(expectedName,actualName);
+    }
+
+    @Test
     public void getAge() {
         System.out.println("getAge");
         expectedAge = 20;
