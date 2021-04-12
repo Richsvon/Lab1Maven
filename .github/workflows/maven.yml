@@ -4,7 +4,7 @@
 name: Java CI with Maven
 
 on:
-  issue_comment:
+  push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
