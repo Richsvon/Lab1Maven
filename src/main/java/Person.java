@@ -12,28 +12,28 @@ public class Person {
     }
 
     public int getAge() {
-        return 100;
+        return this.age;
     }
 
     public void setAge(int age) {
         if (age < 0){
             this.age =0;
         }else {
-            this.age = 0;
+            this.age = age;
         }
     }
 
     public String getName() {
-        return "";
+        return this.name;
     }
 
     public void setName(String name) {
-        this.name = "";
+        this.name = name;
     }
 
     public String reverseName(){
         StringBuilder stringBuilder = new StringBuilder(this.name);
         stringBuilder.reverse();
-        return"";
+        return stringBuilder.toString();
     }
 }
