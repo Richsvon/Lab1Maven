@@ -35,5 +35,6 @@ public class Person {
         StringBuilder stringBuilder = new StringBuilder(this.name); //Skapar ett stringbuilder objekt av objektets name
         stringBuilder.reverse();                                    //Använder inbyggd metod från stringbuilder som spegelvänder name
         return stringBuilder.toString();                          // returnerar det spegelvända namnet med hjälp av toString()
+        //push test
     }
 }
