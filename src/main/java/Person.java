@@ -1,7 +1,6 @@
 public class Person {
     int age;
     String name;
-    //push test
     public Person(int age, String name) {
         if (age < 0) {               // Alt 1: Om parametern age är mindre än noll, sätts åldern till noll
             this.age = 0;
@@ -35,6 +34,5 @@ public class Person {
         StringBuilder stringBuilder = new StringBuilder(this.name); //Skapar ett stringbuilder objekt av objektets name
         stringBuilder.reverse();                                    //Använder inbyggd metod från stringbuilder som spegelvänder name
         return stringBuilder.toString();                          // returnerar det spegelvända namnet med hjälp av toString()
-        //push test
     }
 }
